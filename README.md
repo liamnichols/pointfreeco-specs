@@ -13,7 +13,7 @@ target 'Global' do
   pod 'CustomDump', '~> 0.6.1'            # https://github.com/pointfreeco/swift-custom-dump
   pod 'IdentifiedCollections', '~> 0.5.0' # https://github.com/pointfreeco/swift-identified-collections
   pod 'XCTestDynamicOverlay', '~> 0.6.0'  # https://github.com/pointfreeco/xctest-dynamic-overlay
-  pod 'SnapshotTesting', '~> 0.6.1' # https://github.com/pointfreeco/swift-snapshot-testing
+  pod 'SnapshotTesting', '~> 1.10.0' # https://github.com/pointfreeco/swift-snapshot-testing
 end
 ```
 
@@ -40,6 +40,7 @@ In this specs repository, each Pod defines a target from across one of the many 
 - **XCTestDynamicOverlay** ([xctest-dynamic-overlay](https://github.com/pointfreeco/xctest-dynamic-overlay))
   - 0.6.0
 - **SnapshotTesting** ([swift-snapshot-testing](https://github.com/pointfreeco/swift-snapshot-testing))
+  - 1.10.0
 
 ## Issues
 
