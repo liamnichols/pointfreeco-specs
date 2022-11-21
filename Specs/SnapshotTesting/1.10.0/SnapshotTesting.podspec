@@ -15,6 +15,10 @@ Pod::Spec.new do |s|
 
     s.source_files = 'Sources/SnapshotTesting/**/*.swift'
     s.weak_framework = "XCTest"
+    s.pod_target_xcconfig = {
+      'ENABLE_TESTING_SEARCH_PATHS' => 'YES',
+      'OTHER_LDFLAGS' => '$(inherited) -weak-lXCTestSwiftSupport -Xlinker -no_application_extension',
+    }
     s.test_spec 'Tests' do |test_spec|
       test_spec.source_files = 'Tests/SnapshotTestingTests/**/*.swift'
     end
