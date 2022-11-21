@@ -14,6 +14,7 @@ Pod::Spec.new do |s|
     s.tvos.deployment_target = '13.0'
 
     s.source_files = 'Sources/SnapshotTesting/**/*.swift'
+    s.weak_framework = "XCTest"
     s.test_spec 'Tests' do |test_spec|
       test_spec.source_files = 'Tests/SnapshotTestingTests/**/*.swift'
     end
